@@ -1,19 +1,91 @@
-<!doctype html>
-
+<!Doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
   <title>My Resume</title>
-
-  <link rel="stylesheet" href="css/index.css">
-
+  <!-- <link rel="stylesheet" href="css/index.css"> -->
+  <link rel="stylesheet/less" type="text/css" href="index.less">
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js"></script>
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <div class="container">
+    <header>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Blog</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact Me</a>
+      </nav>
+    </header>
+    <section class="first-section">
+      <!-- <div class="img-container">
+        <img src="" alt="My Avatar Image">
+      </div> -->
+      <div class="profile-container">
+        <h1>Uzoamaka Anyanwu</h1>
+        <p>Frontend Developer | Writer | Lambda Student</p>
+        <div class="extra-info-div">
+          <p>I have knowledge of user interfaces and design principles (currently a work-in-progress).
+             I also write occasionally. Here is the <a href="#">link</a> to my other articles
+          </p>
+          <button>Learn More...</button>
+        </div>
+      </div>
+    </section>
+    <section class="second-section">
+      <div class="first-division">
+        <h3>About Me</h3>
+        <p>
+          I have experience working with user interfaces, designers and developers in order to create the 
+          best user experiences possible. I am also passionate about the web, its components, accessibility, and 
+          overall experience.
+        </p>
+        <br>
+
+        <p>You can contact me by sending a mail to uzoamakaanyanwu26@gmail.com</p>
+      </div>
+      <div class="second-division">
+        <ul>My Stack List Includes:
+          <li>HTML</li>
+          <li>CSS, Bootstrap, MaterialCSS.</li>
+          <li>Currently learning Less</li>
+          <li>Writing about tech, life, and random things.</li>
+        </ul>
+      </div>
+      <div class="third-division">
+        <h3>Work History</h3>
+        <table>
+          <tr>
+            <th>S/N</th>
+            <th>Company Name</th>
+            <th>Role</th>
+            <th>Duration</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Start Innovation Hub</td>
+            <td>UI Developer</td>
+            <td>June 2018 - March 2019</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Zen Software Limited</td>
+            <td>UI Developer</td>
+            <td>April 2019 - June 2019</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+  </div>
+  <footer>
+      <p>Copyright @2019 Uzoamaka Anyanwu</p>
+    </footer>
+
+
+  <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script> -->
 </body>
 </html>
