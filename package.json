@@ -1,0 +1,26 @@
+{
+  "name": "preprocessing-i",
+  "version": "1.0.0",
+  "description": "A Lambda Less Project",
+  "main": "index.js",
+  "dependencies": {
+    "less": "^3.10.0"
+  },
+  "devDependencies": {
+    "less": "^3.10.0",
+    "less-watch-compiler": "^1.13.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Uzoamaka126/Preprocessing-I.git"
+  },
+  "author": "Uzoamaka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Uzoamaka126/Preprocessing-I/issues"
+  },
+  "homepage": "https://github.com/Uzoamaka126/Preprocessing-I#readme"
+}
